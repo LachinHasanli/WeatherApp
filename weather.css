@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: cadetblue;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+#methods {
+    width: 50%;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+#result {
+    list-style: none;
+    display: none;
+    border: 2px solid grey;
+    border-radius: 8px;
+    padding: 14px;
+    background-color: burlywood;
+
+}
+
+#result>li {
+    width: 100%;
+    font-size: 14px;
+
+    margin: 5px 0;
+
+}
+
+
+label {
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+
+}
+
+
+button {
+    color: white;
+    padding: 5px 10px;
+    background-color: gray;
+    border-radius: 4px;
+    border: none;
+    margin: 10px;
+}
+
+li>span {
+    font-weight: 600;
+}

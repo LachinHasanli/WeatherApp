@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="weather.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1>Welcome to my Weather App</h1>
+        <label for="Weather">Please, select the searching method!</label>
+        <br><br>
+        <select name="way" id="methods" onChange="interface()">
+            <option value="cityName">name of the city</option>
+            <option value="latLong">latitude and longitude</option>
+            <option value="location">My Location</option>
+        </select>
+        <br><br>
+        
+        <div id="s-method">
+
+
+        </div>
+
+
+        <ul id="result">
+            <li id="name"> <span>city name:</span> </li>
+            <li id="country"> <span> Full country name:</span> </li>
+            <li id="condition"><span>weather condition: </span></li>
+            <li id="desc"><span>description: </span></li>
+            <li id="temp"><span>temperature: </span></li>
+            <li id="humidity"><span>humidity:</span> </li>
+            <li id="pressure"><span>pressure: </span></li>
+            <li id="wind"><span>wind speed and direction: </span></li>
+            <li id="dateAndTime"><span>local date and time:</span> </li>
+        </ul>
+
+    </div>
+
+
+
+    <script src="weather.js"></script>
+
+
+</body>
+
+</html>
